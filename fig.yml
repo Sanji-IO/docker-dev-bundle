@@ -1,0 +1,24 @@
+broker:
+  image: sanji/docker-mosquitto
+  ports:
+   - "1883:1883"
+
+inspector:
+  image: sanji/docker-mqtt-inspector
+  ports:
+   - "8080:8080"
+  links:
+   - broker
+
+controller:
+  image: sanji/docker-controller
+  links:
+   - broker
+   - inspector
+
+bundle:
+  build: $FIG_PATH
+  links:
+   - broker
+   - controller
+   - inspector
