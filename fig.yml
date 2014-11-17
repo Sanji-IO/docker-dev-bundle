@@ -18,6 +18,8 @@ controller:
 
 bundle:
   build: $FIG_PATH
+  volumes:
+   - $BUNDLE_PATH:/bundle
   links:
    - broker
    - controller

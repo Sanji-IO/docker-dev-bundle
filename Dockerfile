@@ -1,8 +1,8 @@
 FROM python:2.7
 
-COPY bundle /bundle
+VOLUME ["/bundle"]
+
 WORKDIR /bundle
 
-RUN pip install -r requirements.txt || true
-
-CMD python $BUNDLE_MAIN
+CMD pip install -r requirements.txt > /dev/null && \
+    python $BUNDLE_MAIN
