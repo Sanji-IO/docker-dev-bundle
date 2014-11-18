@@ -20,6 +20,8 @@ bundle:
   build: $FIG_PATH
   volumes:
    - $BUNDLE_PATH:/bundle
+  environment:
+   - BUNDLE_MAIN=$BUNDLE_MAIN
   links:
    - broker
    - controller
