@@ -5,7 +5,7 @@ Using this **package (docker image + scripts)**, developers could play with Sanj
 
 ## Quick Start
 
-:bowtie: **Install Docker and Fig**
+**Install Docker and Fig**
 - **Docker** Please go to [Docker.io](https://docs.docker.com/installation/ubuntulinux/) for more installation information.
 - **Fig**
 ```sh
@@ -13,7 +13,7 @@ $ pip install fig
 ```
 Need help? Please go to [fig.sh](http://www.fig.sh/).
 
-:heart_eyes: **Play Bundle with Sanji Fullstack**
+**Play Bundle with Sanji Fullstack**
 ```sh
 $ BUNDLE_PATH="/home/zack/cellular" make
 ```
