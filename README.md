@@ -1,5 +1,5 @@
-Sanji Develop Bundle
-====================
+Sanji Bundle Development Stack
+==============================
 
 Using this **package (docker image + scripts)**, developers could play with Sanji Framework more easily.
 
