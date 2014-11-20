@@ -1,7 +1,9 @@
 Sanji Bundle Development Stack
 ==============================
 
-Using this **package (docker image + scripts)**, developers could play with Sanji Framework more easily.
+Using this **Development Stack (docker image + scripts)**, developers could play with Sanji Framework more easily.
+
+![sanji bundle development stack](https://cloud.githubusercontent.com/assets/690703/5120081/31cf7ee0-70b7-11e4-93e2-b25601e80ef3.png)
 
 ## Quick Start
 
@@ -37,6 +39,11 @@ $ BUNDLE_PATH="/home/zack/cellular" make
 ###Inspect MQTT Message Flow
 - Open [http://localhost:8080](http://localhost:8080)
 - [sanji-mqtt-inspector](https://github.com/Sanji-IO/sanji-mqtt-inspector) is there for you.
+
+## Future Work
+- [ ] Auto-reload if *.py changes.
+- [ ] Container for Multiple bundles.
+- [ ] Design a Pre-run script entrypoint. (copy default system configs or something)
 
 ## Licence
 MOXA
