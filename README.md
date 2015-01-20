@@ -27,6 +27,7 @@ $ BUNDLE_PATH="/home/zack/cellular" make
 
 ### Commands
 - `$ make` will run `pip install -r requirements.txt && python $BUNDLE_MAIN` and startup.
+- `$ make console` will run into container's console.
 - `$ make clean` clean up temporary directories and all containers.
 - `$ make deepclean` clean up all containers and related images.
 

@@ -2,7 +2,11 @@ all: clean start
 
 start:
 	@echo "Start initializing..."
-	./start.sh
+	@./start.sh
+
+console:
+	@echo "Start [Sanji Bundle Development Stack] console..."
+	@./start.sh console
 
 clean:
 	@echo "Cleaning up Docker containers and tmp directories..."
